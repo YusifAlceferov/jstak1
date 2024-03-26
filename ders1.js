@@ -2,7 +2,7 @@ let username = prompt("zehmet olmasa adinizi daxil edin:");
 let lenthOfName = username.length;
 console.log("Daxil etdiyiniz ad " + lenthOfName + " simvoldan ibaretdir");
 let symbol = prompt("simvol daxil edin:");
-//5-ve 6 burda islemelidir
+//5-ve 2 burda islemelidir
 if (username.includes(symbol)) {
     console.log("daxil etdiyiniz simvol adinizda movcuddur!"+username.indexOf(symbol)); 
 } else {
